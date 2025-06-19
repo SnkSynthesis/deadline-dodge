@@ -1,2 +1,5 @@
 # Speed Logic
-This controsl how fast the [LFSR-decoder logic](../lfsr-decoder-logic/) and how fast rocks will fall down.
+This controls the speed of the [LFSR-decoder logic](../lfsr-decoder-logic/) and how fast the rocks fall down.
+
+![LFSR Logic Diagram](./Falling_Rocks_example.png)
+
