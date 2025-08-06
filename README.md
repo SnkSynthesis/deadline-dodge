@@ -1,7 +1,7 @@
-# deadline-dodge
+# Deadline Dodge
 ![Matrix GIF](matrix.gif)
 
-Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other 74-series components
+Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other 74-series components.
 
 By [Hurley1340](https://github.com/Hurley1340) and [SnkSynthesis](https://github.com/SnkSynthesis)
 
