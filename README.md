@@ -8,6 +8,7 @@ By [Hurley1340](https://github.com/Hurley1340) and [SnkSynthesis](https://github
 ## Concept
 ![Concept Image](concept.png)
 
+
 * An 8x9 LED matrix
 * Rocks psuedorandomly spawn in one of the 8 columns
 (denoted by illuminated red LEDs)
@@ -31,6 +32,8 @@ By [Hurley1340](https://github.com/Hurley1340) and [SnkSynthesis](https://github
 
 <details>
 <summary>View demonstration video</summary>
+<br>
+  
 **NOTE**: 2 of the 8 columns are not connected due to time constraints we had while filming but those 2 columns are operational
 
 [Demonstration Video](https://drive.google.com/file/d/1kh-cmQssLxfHI6EVnNEhwa_JeeISMlLd/view?usp=sharing)
