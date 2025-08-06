@@ -16,6 +16,7 @@ but we encountered a lot of issues/bugginess with this, so we opted to make it s
 which proved to be a lot less buggy yet with similar responsiveness.
 
 ![Player Movement Logic Schematic](player_movement_schematic.png)
+
 _Screenshot of player_movement_schematic.ms14_
 
 
