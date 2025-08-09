@@ -7,8 +7,7 @@ If we focus on only one column, then we see the following things have to be true
 * The player is present in that column
 * A rock is present in the bottom-most cell (cell above player)
 
-*The system clock signal must be low so the player has a chance to see the collision happening. 
-Using a high clock signal would cause the screen to clear too quickly for the player to see a collision.
+*The system clock signal has to be low so the player has a chance to see the collision happening otherwise the screen will clear too quickly for the player to realize a collision happened.
 
 ![Collision Logic Schematic](schematic.png)
 
