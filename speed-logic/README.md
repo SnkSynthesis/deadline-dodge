@@ -4,7 +4,7 @@ This circuitry controls the speed of the [lfsr-decoder-logic](../lfsr-decoder-lo
 
 When the player survives for a set amount of time without triggering the Collision Logic (i.e., without losing), the Speed Logic activates, increasing the game speed and making the game progressively harder.
 
-Operation
+Operation/
 -Triggering the Speed Increase-
 An AND gate detects the LFSR state 1111 (inputs: Qa, Qb, Qc, Qd), which occurs at regular intervals. This output increments a mod-6 counter (74LS163N). Although the counter is designed to count up to 6, it is forced to jump directly to its maximum count (1111). This sets the RCO pin high, triggering the next stage.
 
