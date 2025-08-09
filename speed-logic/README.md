@@ -16,7 +16,6 @@ The next stage is another 74LS163N counter. Each time this counter is incremente
 The counter’s outputs are decoded with combinational logic to control a 74LS153 4-to-1 multiplexer (MUX).
 
 The MUX selects between three clock inputs:
-
 System clock (full speed)
 Divide-by-2 clock
 Divide-by-4 clock
