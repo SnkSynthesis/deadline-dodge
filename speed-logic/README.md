@@ -16,9 +16,9 @@ The next stage is another 74LS163N counter. Each time this counter is incremente
 The counter’s outputs are decoded with combinational logic to control a 74LS153 4-to-1 multiplexer (MUX).
 
 The MUX selects between three clock inputs:
-System clock (full speed)
-Divide-by-2 clock
-Divide-by-4 clock
+System clock (full speed),
+Divide-by-2 clock,
+Divide-by-4 clock.
 The two divided clocks are generated from specific outputs of a counter driven by the system clock.
 
 The MUX output determines the active game speed. This clock signal is fed back into the entire game so all elements operate in sync with the selected tempo.
