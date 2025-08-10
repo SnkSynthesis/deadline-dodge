@@ -2,7 +2,7 @@
 
 This circuitry controls the speed of the [lfsr-decoder-logic](../lfsr-decoder-logic/) and, in turn, how fast the rocks fall in the game. It is a modular feature that introduces three distinct speed levels.
 
-When the player survives for a set amount of time without triggering the Collision Logic (i.e., without losing), the Speed Logic activates, increasing the game speed and making the game progressively harder.
+When the player survives for a set amount of time without triggering any collision (i.e., without losing), the speed logic increases the speed at which rocks spawn and fall and making the game progressively harder.
 
 Operation
 
