@@ -22,3 +22,6 @@ Divide-by-4 clock.
 The two divided clocks are generated from specific outputs of a counter driven by the system clock.
 
 The MUX output determines the active game speed. This clock signal is fed back into the entire game so all elements operate in sync with the selected tempo.
+
+## Schematic
+![Speed Logic Schematic](Speed_Logic_Schematic.png)
