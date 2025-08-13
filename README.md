@@ -33,7 +33,9 @@ With those 2 things in consideration, we came up with the following concept:
 * Most of the circuitry was made on breadboards
 * The LED matrix was soldered on a perfboard and connected to the breadboard circuit via jumper wires.
 
-## Overall Schematic (block-level)
+## Overall Schematic
+This is a block-level schematic that shows the overall logic in blocks for simplicity.
+
 ![Overall Schematic](overall_schematic.png)
 
 ## Outline
