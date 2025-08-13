@@ -1,13 +1,20 @@
 # Deadline Dodge
 ![Matrix GIF](matrix.gif)
 
-Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other 74-series components.
+Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other [7400-series ICs](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits)
 
 By [Hurley1340](https://github.com/Hurley1340) and [SnkSynthesis](https://github.com/SnkSynthesis)
 
 See [Gallery](#gallery).
 
 ## Concept
+
+We wanted a fun visuak final project for our digital logic design class. However we had some constraints:
+* only allowed to use [7400-series ICs](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits) for logic
+* A deadline for project completion (hence the name _deadline_-dodge)
+
+With those 2 things in consideration, we came up with the following concept: 
+
 ![Concept Image](concept.png)
 
 
