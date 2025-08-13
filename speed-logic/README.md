@@ -7,7 +7,9 @@ When the player survives for a set amount of time without triggering any collisi
 ## Operation
 
 ### Triggering the Speed Increase
-An AND gate detects the LFSR state 1111 (inputs: Qa, Qb, Qc, Qd), which occurs at regular intervals. This output increments a mod-6 counter (74LS163N). Although the counter is designed to count up to 6, it is forced to jump directly to its maximum count (1111). This sets the RCO pin high, triggering the next stage.
+An AND gate detects the LFSR state 1111 (inputs: Qa, Qb, Qc, Qd), which occurs at regular intervals. This output increments a mod-6 counter (74LS163N). Although the counter is designed to count up to 6, it is forced to jump to its maximum count (1111) in order to set the RCO pin high, triggering the next stage. The mod-6 counter was an arbitrary choice, which makes the game speed increase after the LFSR has reached state 1111, six times. 
+# How the counter works 
+The counter begins it count at 0001 and continues through 0011, at which time a NAND gates goes Low and triggers the LOAD on the counter to count 1100. Then the counter continues through its count and when it rolls over the RCO is triggered. 
 
 ### Speed Level Control
 The next stage is another 74LS163N counter. Each time this counter is incremented, the game speed increases. After two speed increases, the counter locks at its highest setting so the final speed is maintained for the rest of the game.
