@@ -33,9 +33,15 @@ With those 2 things in consideration, we came up with the following concept:
 * Most of the circuitry was made on breadboards
 * The LED matrix was soldered on a perfboard and connected to the breadboard circuit via jumper wires.
 
-## Overall Schematic
+## Overall Schematic (block-level)
 ![Overall Schematic](overall_schematic.png)
 
+## Outline
+To understand the individual logic blocks mentioned in the game, we suggest recommend viewing the following folders in order:
+1. [lfsr-decoder-logic](./lfsr-decoder-logic) - Psuedorandomly selects a column to spawn a rock in (rock will descend each clock cycle) 
+2. [speed-logic](./speed-logic) - Decides how fast rocks spawn and fall
+3. [player-movement-logic](./player-movement-logic) - Translates input given by player into movement
+4. [collision-logic](./collision-logic) - Detects whether there is a collision between the player and a rock
 
 ## Gallery
 
