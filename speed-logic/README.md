@@ -12,7 +12,7 @@ An AND gate detects the LFSR state 1111 (inputs: Qa, Qb, Qc, Qd), which occurs a
 The counter begins it count at 0001 and continues its count through 0011, at which time the LOAD-condition-NAND gate goes Low and triggers the LOAD making the counter jump to count 1100, (see [Timing_Diagram_For_Jump](../Timing_For_Jump/)). Then the counter continues its count. The counter's RCO pin goes high when the counter reaches 1111 and rolls over. The RCO pin triggers the next stage.  
 
 ### Speed Level Control
-The next stage is another 74LS163N counter. Each time the RCO pin goes high on the previous stage, this counter is incremented and the game speed increases. Once the second-stage-counter is inremented it must wait for the first-stage-counter's RCO pin to go high before it increments again. After two speed increases, this counter continues to count up, but combinational logic downstream makes all counts 0010 and above lock the game at its highest speed setting. 
+The next stage is another 74LS163N counter. Each time the RCO pin goes high on the previous stage, this counter is incremented and the game speed increases. Once the second-stage-counter is inremented it must wait for the first-stage-counter's RCO pin to go high before it increments again. See [Speed_Increase_Diagram](../Timing_For_Jump/) After two speed increases, this counter continues to count up, but combinational logic downstream makes all counts 0010 and above lock the game at its highest speed setting. 
 
 ### Speed Selection and Distribution
 The counter’s outputs are decoded with combinational logic to control a 74LS153 4-to-1 multiplexer (MUX).
