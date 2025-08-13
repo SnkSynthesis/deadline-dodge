@@ -25,6 +25,7 @@ With those 2 things in consideration, we came up with the following concept:
 * A collision between the player and one of the rocks will end the game (which clear the screen)
 * The game speeds up over time
 * Player position can be reset to starting position by pressing LOAD button
+* The objective of the player is to surive without getting hit by rocks as long as possible
 
 
 ## Implementation
