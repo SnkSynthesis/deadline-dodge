@@ -32,6 +32,7 @@ With those 2 things in consideration, we came up with the following concept:
 * We designed and simulated our circuitry using Multisim (`.ms14` files can be found in the folders of this repository)
 * Most of the circuitry was made on breadboards
 * The LED matrix was soldered on a perfboard and connected to the breadboard circuit via jumper wires.
+* We used shift registers to manipulate our LED matrix with the outputs of each shift register being wired to a single LED. 
 
 ## Overall Schematic
 This is a block-level schematic that shows the overall logic in blocks for simplicity.
