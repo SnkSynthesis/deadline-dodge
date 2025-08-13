@@ -9,7 +9,7 @@ See [Gallery](#gallery).
 
 ## Concept
 
-We wanted a fun visuak final project for our digital logic design class. However we had some constraints:
+We wanted a fun visual final project for our digital logic design class. However we had some constraints:
 * only allowed to use [7400-series ICs](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits) for logic
 * A deadline for project completion (hence the name _deadline_-dodge)
 
