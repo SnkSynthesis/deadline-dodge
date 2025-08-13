@@ -36,9 +36,9 @@ With those 2 things in consideration, we came up with the following concept:
 ## Overall Schematic
 This is a block-level schematic that shows the overall logic in blocks for simplicity.
 
-![Overall Schematic](overall_schematic.png)
+![Overall Schematic](https://raw.githubusercontent.com/SnkSynthesis/deadline-dodge/refs/heads/main/overall_schematic.png)
 
-Click [here](https://raw.githubusercontent.com/SnkSynthesis/deadline-dodge/refs/heads/main/overall_schematic.png) to open image to zoom in and out.
+**NOTE**: Right-click image and open in new tab to view schematic better
 
 ## Outline
 To understand the individual logic blocks mentioned in the game, we suggest recommend viewing the following folders in order:
