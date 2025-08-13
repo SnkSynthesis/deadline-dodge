@@ -25,3 +25,5 @@ The MUX output determines the active game speed. This clock signal is fed back i
 
 ## Schematic
 ![Speed Logic Schematic](Speed_Logic_Schematic.png)
+
+_Screenshot of Speed_Logic.ms14.ms14_
