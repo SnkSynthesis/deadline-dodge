@@ -38,6 +38,8 @@ This is a block-level schematic that shows the overall logic in blocks for simpl
 
 ![Overall Schematic](overall_schematic.png)
 
+Click [here](https://raw.githubusercontent.com/SnkSynthesis/deadline-dodge/refs/heads/main/overall_schematic.png) to open image to zoom in and out.
+
 ## Outline
 To understand the individual logic blocks mentioned in the game, we suggest recommend viewing the following folders in order:
 1. [lfsr-decoder-logic](./lfsr-decoder-logic) - Psuedorandomly selects a column to spawn a rock in (rock will descend each clock cycle) 
