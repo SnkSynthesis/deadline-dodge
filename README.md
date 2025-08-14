@@ -1,13 +1,20 @@
 # Deadline Dodge
 ![Matrix GIF](matrix.gif)
 
-Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other 74-series components.
+Deadline Dodge, an old school 8x9 LED matrix game made only with logic gates and other [7400-series ICs](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits)
 
 By [Hurley1340](https://github.com/Hurley1340) and [SnkSynthesis](https://github.com/SnkSynthesis)
 
 See [Gallery](#gallery).
 
 ## Concept
+
+We wanted a fun visual final project for our digital logic design class. However we had some constraints:
+* only allowed to use [7400-series ICs](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits) for logic
+* A deadline for project completion (hence the name _deadline_-dodge)
+
+With those 2 things in consideration, we came up with the following concept: 
+
 ![Concept Image](concept.png)
 
 
@@ -18,6 +25,7 @@ See [Gallery](#gallery).
 * A collision between the player and one of the rocks will end the game (which clear the screen)
 * The game speeds up over time
 * Player position can be reset to starting position by pressing LOAD button
+* The objective of the player is to surive without getting hit by rocks as long as possible
 
 
 ## Implementation
@@ -25,10 +33,21 @@ See [Gallery](#gallery).
 * We designed and simulated our circuitry using Multisim (`.ms14` files can be found in the folders of this repository)
 * Most of the circuitry was made on breadboards
 * The LED matrix was soldered on a perfboard and connected to the breadboard circuit via jumper wires.
+* We used shift registers to manipulate our LED matrix with the outputs of each shift register being wired to a single LED. 
 
 ## Overall Schematic
-![Overall Schematic](overall_schematic.png)
+This is a block-level schematic that shows the overall logic in blocks for simplicity.
 
+![Overall Schematic](https://raw.githubusercontent.com/SnkSynthesis/deadline-dodge/refs/heads/main/overall_schematic.png)
+
+**NOTE**: Right-click image and open in new tab to view schematic better
+
+## Outline
+To understand the individual logic blocks mentioned in the game, we suggest recommend viewing the following folders in order:
+1. [lfsr-decoder-logic](./lfsr-decoder-logic) - Psuedorandomly selects a column to spawn a rock in (rock will descend each clock cycle) 
+2. [speed-logic](./speed-logic) - Decides how fast rocks spawn and fall
+3. [player-movement-logic](./player-movement-logic) - Translates input given by player into movement
+4. [collision-logic](./collision-logic) - Detects whether there is a collision between the player and a rock
 
 ## Gallery
 
