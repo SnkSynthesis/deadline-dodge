@@ -1,7 +1,7 @@
 # LFSR + Decoder Logic
 This is the logic that decides which column to spawn a rock in.
 
-We are using the LFSR as our psuedorandom number generator. 3 of 4 taps are used on the LFSR so the falling rocks have a longer sequence with repetitions to seem more random.
+We are using the LFSR as our psuedorandom number generator. 3 of 4 taps are used on the LFSR so the falling rocks have a longer sequence with repetitions to seem more random. A 4-bit LFSR has a longer sequence (more than double) than a 3-bit LFSR (15 vs 7).
 
 The decoded sequence is as follows:
 
